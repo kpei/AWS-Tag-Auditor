@@ -13,7 +13,7 @@ Usage
 ------
   
 Using the command line:  
-` php tagAuditor.php -c configFileLocation -o screen|file `  
+` php index.php -c configFileLocation -o screen|file `  
 
 **-c** - Specify the configuration file location. This is a formatted .YAML file with Amazon keys, and resource information, see section on Config format for more information.  
 **-o** - Only accepts `screen` or `file` as input, this specifies whether the tag auditors output will be in a readable format or in tab delimited style for further manipulation.  This usually works in complement with the other AWS tag tools.  Output to a file can be achieved by appending `> OutputFileName.txt` to the end of the command.  
