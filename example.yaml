@@ -1,0 +1,16 @@
+Keys:
+  Secret_Key: *****************************
+  Access_Key: ******************
+Region:
+  - us-east-1
+  - us-west-1
+  - us-west-2
+  - eu-west-1
+Tags:
+  - Product
+  - Uses
+  - Owner
+Platform:
+  - EC2
+  - S3
+  - ASG
